@@ -1,1 +1,78 @@
 /* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.image-input-container {
+  display: flex;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-name {
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #cbd2d9;
+  outline: none;
+}
+.input-comment {
+  height: 140px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-color: #cbd2d9;
+  outline: none;
+}
+.submit-button {
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+  order: -1;
+}
+@media Screen and (min-width: 576px) {
+  .image-container {
+    display: flex;
+    align-items: center;
+    order: 0;
+  }
+}
+.comment-image {
+  width: 300px;
+}
+.horizontal-line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+}
+.comments-count {
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.count {
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 4px;
+  border-radius: 3px;
+}
